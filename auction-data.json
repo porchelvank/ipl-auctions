@@ -1,0 +1,1348 @@
+{
+  "teams": {
+    "CSK": {
+      "id": "CSK",
+      "purse": 120,
+      "squad": []
+    },
+    "MI": {
+      "id": "MI",
+      "purse": 120,
+      "squad": []
+    },
+    "RCB": {
+      "id": "RCB",
+      "purse": 119.8,
+      "squad": [
+        {
+          "id": 8,
+          "name": "Murali Vijay",
+          "role": "Batsman",
+          "basePrice": 0.2,
+          "soldPrice": 0.2
+        }
+      ]
+    },
+    "RR": {
+      "id": "RR",
+      "purse": 120,
+      "squad": []
+    }
+  },
+  "currentIndex": 99,
+  "currentPlayer": null,
+  "currentBid": 0.2,
+  "highestBidder": null,
+  "status": "COMPLETED",
+  "endsAt": null,
+  "soldPlayers": [
+    {
+      "id": 8,
+      "name": "Murali Vijay",
+      "role": "Batsman",
+      "basePrice": 0.2,
+      "team": "RCB",
+      "soldPrice": 0.2
+    }
+  ],
+  "unsoldPlayers": [
+    {
+      "id": 1,
+      "name": "Shreyas Gopal",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 2,
+      "name": "Virat Kohli",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 3,
+      "name": "Jaydev Unadkat",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 4,
+      "name": "MS Dhoni",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 5,
+      "name": "Rinku Singh",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 6,
+      "name": "Andrew Tye",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 7,
+      "name": "Kieron Pollard",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 9,
+      "name": "Rashid Khan",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 10,
+      "name": "Manish Pandey",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 11,
+      "name": "Abhishek Sharma",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 12,
+      "name": "Sandeep Sharma",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 13,
+      "name": "Adam Gilchrist",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 14,
+      "name": "Saurabh Tiwary",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 15,
+      "name": "Andre Russell",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 16,
+      "name": "Amit Mishra",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 17,
+      "name": "Tilak Varma",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 18,
+      "name": "Dinesh Karthik",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 19,
+      "name": "Praveen Kumar",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 20,
+      "name": "David Warner",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 21,
+      "name": "Washington Sundar",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 22,
+      "name": "Rahul Tripathi",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 23,
+      "name": "Lasith Malinga",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 24,
+      "name": "Heinrich Klaasen",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 25,
+      "name": "Yusuf Pathan",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 26,
+      "name": "Shubman Gill",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 27,
+      "name": "Ishant Sharma",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 28,
+      "name": "Sanju Samson",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 29,
+      "name": "Deepak Hooda",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 30,
+      "name": "Chris Gayle",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 31,
+      "name": "Varun Chakravarthy",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 32,
+      "name": "Faf du Plessis",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 33,
+      "name": "Hardik Pandya",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 34,
+      "name": "Umesh Yadav",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 35,
+      "name": "Ishan Kishan",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 36,
+      "name": "Ajinkya Rahane",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 37,
+      "name": "Imran Tahir",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 38,
+      "name": "Shivam Dube",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 39,
+      "name": "AB de Villiers",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 40,
+      "name": "Avesh Khan",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 41,
+      "name": "Jos Buttler",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 42,
+      "name": "Vijay Shankar",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 43,
+      "name": "Ruturaj Gaikwad",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 44,
+      "name": "Zaheer Khan",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 45,
+      "name": "Moeen Ali",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 46,
+      "name": "Prithvi Shaw",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 47,
+      "name": "Trent Boult",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 48,
+      "name": "Nicholas Pooran",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 49,
+      "name": "James Faulkner",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 50,
+      "name": "Gautam Gambhir",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 51,
+      "name": "Mohammed Siraj",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 52,
+      "name": "Wriddhiman Saha",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 53,
+      "name": "Ravindra Jadeja",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 54,
+      "name": "Mayank Agarwal",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 55,
+      "name": "Kuldeep Yadav",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 56,
+      "name": "Steve Smith",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 57,
+      "name": "Chris Morris",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 58,
+      "name": "Bhuvneshwar Kumar",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 59,
+      "name": "Quinton de Kock",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 60,
+      "name": "Irfan Pathan",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 61,
+      "name": "Suryakumar Yadav",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 62,
+      "name": "Dale Steyn",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 63,
+      "name": "Shikhar Dhawan",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 64,
+      "name": "Daniel Vettori",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 65,
+      "name": "Mohammed Shami",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 66,
+      "name": "Rishabh Pant",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 67,
+      "name": "Nitish Kumar Reddy",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 68,
+      "name": "Robin Uthappa",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 69,
+      "name": "Yuzvendra Chahal",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 70,
+      "name": "Kane Williamson",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 71,
+      "name": "Thisara Perera",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 72,
+      "name": "Harbhajan Singh",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 73,
+      "name": "KL Rahul",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 74,
+      "name": "Suresh Raina",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 75,
+      "name": "Mitchell Marsh",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 76,
+      "name": "Anil Kumble",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 77,
+      "name": "Sai Sudharsan",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 78,
+      "name": "Jonny Bairstow",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 79,
+      "name": "Glenn Maxwell",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 80,
+      "name": "Kagiso Rabada",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 81,
+      "name": "Ambati Rayudu",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 82,
+      "name": "Ashish Nehra",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 83,
+      "name": "Axar Patel",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 84,
+      "name": "Yashasvi Jaiswal",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 85,
+      "name": "Mustafizur Rahman",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 86,
+      "name": "Parthiv Patel",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 87,
+      "name": "Rahul Tewatia",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 88,
+      "name": "Manvinder Bisla",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 89,
+      "name": "Mandeep Singh",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 90,
+      "name": "Navdeep Saini",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 91,
+      "name": "Kedar Jadhav",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 92,
+      "name": "Devdutt Padikkal",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 93,
+      "name": "Ankit Rajpoot",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 94,
+      "name": "Naman Ojha",
+      "role": "Wicket Keeper",
+      "basePrice": 0.2
+    },
+    {
+      "id": 95,
+      "name": "Shreyas Iyer",
+      "role": "Batsman",
+      "basePrice": 0.2
+    },
+    {
+      "id": 96,
+      "name": "Pat Cummins",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 97,
+      "name": "Dwayne Bravo",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 98,
+      "name": "Riyan Parag",
+      "role": "All Rounder",
+      "basePrice": 0.2
+    },
+    {
+      "id": 99,
+      "name": "Varun Aaron",
+      "role": "Bowler",
+      "basePrice": 0.2
+    },
+    {
+      "id": 100,
+      "name": "Brendon McCullum",
+      "role": "Batsman",
+      "basePrice": 0.2
+    }
+  ],
+  "history": [
+    {
+      "player": "Shreyas Gopal",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:19:03.415Z"
+    },
+    {
+      "player": "Virat Kohli",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:19:25.940Z"
+    },
+    {
+      "player": "Jaydev Unadkat",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:19:48.464Z"
+    },
+    {
+      "player": "MS Dhoni",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:20:10.983Z"
+    },
+    {
+      "player": "Rinku Singh",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:20:33.501Z"
+    },
+    {
+      "player": "Andrew Tye",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:20:56.020Z"
+    },
+    {
+      "player": "Kieron Pollard",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:21:18.526Z"
+    },
+    {
+      "player": "Murali Vijay",
+      "result": "SOLD",
+      "team": "RCB",
+      "price": 0.2,
+      "time": "2026-11-06T15:21:50.825Z"
+    },
+    {
+      "player": "Rashid Khan",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:39:14.087Z"
+    },
+    {
+      "player": "Manish Pandey",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:39:36.611Z"
+    },
+    {
+      "player": "Abhishek Sharma",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:39:59.135Z"
+    },
+    {
+      "player": "Sandeep Sharma",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:40:21.654Z"
+    },
+    {
+      "player": "Adam Gilchrist",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:40:44.165Z"
+    },
+    {
+      "player": "Saurabh Tiwary",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:41:06.667Z"
+    },
+    {
+      "player": "Andre Russell",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:41:29.190Z"
+    },
+    {
+      "player": "Amit Mishra",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:41:51.716Z"
+    },
+    {
+      "player": "Tilak Varma",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:42:14.243Z"
+    },
+    {
+      "player": "Dinesh Karthik",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:42:36.769Z"
+    },
+    {
+      "player": "Praveen Kumar",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:42:59.294Z"
+    },
+    {
+      "player": "David Warner",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:43:21.815Z"
+    },
+    {
+      "player": "Washington Sundar",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:43:44.329Z"
+    },
+    {
+      "player": "Rahul Tripathi",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:44:06.841Z"
+    },
+    {
+      "player": "Lasith Malinga",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:44:29.364Z"
+    },
+    {
+      "player": "Heinrich Klaasen",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:44:51.879Z"
+    },
+    {
+      "player": "Yusuf Pathan",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:45:14.390Z"
+    },
+    {
+      "player": "Shubman Gill",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:45:36.901Z"
+    },
+    {
+      "player": "Ishant Sharma",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:45:59.434Z"
+    },
+    {
+      "player": "Sanju Samson",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:46:21.941Z"
+    },
+    {
+      "player": "Deepak Hooda",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:46:44.453Z"
+    },
+    {
+      "player": "Chris Gayle",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:47:06.977Z"
+    },
+    {
+      "player": "Varun Chakravarthy",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:47:29.508Z"
+    },
+    {
+      "player": "Faf du Plessis",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:47:52.033Z"
+    },
+    {
+      "player": "Hardik Pandya",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:48:14.557Z"
+    },
+    {
+      "player": "Umesh Yadav",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:48:37.083Z"
+    },
+    {
+      "player": "Ishan Kishan",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:48:59.603Z"
+    },
+    {
+      "player": "Ajinkya Rahane",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:49:22.125Z"
+    },
+    {
+      "player": "Imran Tahir",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:49:44.633Z"
+    },
+    {
+      "player": "Shivam Dube",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:50:07.154Z"
+    },
+    {
+      "player": "AB de Villiers",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:50:29.672Z"
+    },
+    {
+      "player": "Avesh Khan",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:50:52.182Z"
+    },
+    {
+      "player": "Jos Buttler",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:51:14.687Z"
+    },
+    {
+      "player": "Vijay Shankar",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:51:37.195Z"
+    },
+    {
+      "player": "Ruturaj Gaikwad",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:51:59.712Z"
+    },
+    {
+      "player": "Zaheer Khan",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:52:22.229Z"
+    },
+    {
+      "player": "Moeen Ali",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:52:44.753Z"
+    },
+    {
+      "player": "Prithvi Shaw",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:53:07.276Z"
+    },
+    {
+      "player": "Trent Boult",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:53:29.788Z"
+    },
+    {
+      "player": "Nicholas Pooran",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:53:52.309Z"
+    },
+    {
+      "player": "James Faulkner",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:54:14.815Z"
+    },
+    {
+      "player": "Gautam Gambhir",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:54:37.342Z"
+    },
+    {
+      "player": "Mohammed Siraj",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:54:59.852Z"
+    },
+    {
+      "player": "Wriddhiman Saha",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:55:22.373Z"
+    },
+    {
+      "player": "Ravindra Jadeja",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:55:44.896Z"
+    },
+    {
+      "player": "Mayank Agarwal",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:56:07.407Z"
+    },
+    {
+      "player": "Kuldeep Yadav",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:56:29.921Z"
+    },
+    {
+      "player": "Steve Smith",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:56:52.432Z"
+    },
+    {
+      "player": "Chris Morris",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:57:14.946Z"
+    },
+    {
+      "player": "Bhuvneshwar Kumar",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:57:37.475Z"
+    },
+    {
+      "player": "Quinton de Kock",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:57:59.993Z"
+    },
+    {
+      "player": "Irfan Pathan",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:58:22.518Z"
+    },
+    {
+      "player": "Suryakumar Yadav",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:58:45.038Z"
+    },
+    {
+      "player": "Dale Steyn",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:59:07.553Z"
+    },
+    {
+      "player": "Shikhar Dhawan",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:59:30.071Z"
+    },
+    {
+      "player": "Daniel Vettori",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T15:59:52.592Z"
+    },
+    {
+      "player": "Mohammed Shami",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:00:15.100Z"
+    },
+    {
+      "player": "Rishabh Pant",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:00:37.619Z"
+    },
+    {
+      "player": "Nitish Kumar Reddy",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:01:00.138Z"
+    },
+    {
+      "player": "Robin Uthappa",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:01:22.654Z"
+    },
+    {
+      "player": "Yuzvendra Chahal",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:01:45.163Z"
+    },
+    {
+      "player": "Kane Williamson",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:02:07.696Z"
+    },
+    {
+      "player": "Thisara Perera",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:02:30.216Z"
+    },
+    {
+      "player": "Harbhajan Singh",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:02:52.738Z"
+    },
+    {
+      "player": "KL Rahul",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:03:15.270Z"
+    },
+    {
+      "player": "Suresh Raina",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:03:37.791Z"
+    },
+    {
+      "player": "Mitchell Marsh",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:04:00.305Z"
+    },
+    {
+      "player": "Anil Kumble",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:04:22.828Z"
+    },
+    {
+      "player": "Sai Sudharsan",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:04:45.338Z"
+    },
+    {
+      "player": "Jonny Bairstow",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:05:07.846Z"
+    },
+    {
+      "player": "Glenn Maxwell",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:05:30.363Z"
+    },
+    {
+      "player": "Kagiso Rabada",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:05:52.890Z"
+    },
+    {
+      "player": "Ambati Rayudu",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:06:15.408Z"
+    },
+    {
+      "player": "Ashish Nehra",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:06:37.928Z"
+    },
+    {
+      "player": "Axar Patel",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:07:00.445Z"
+    },
+    {
+      "player": "Yashasvi Jaiswal",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:07:22.988Z"
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:07:45.516Z"
+    },
+    {
+      "player": "Parthiv Patel",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:08:08.038Z"
+    },
+    {
+      "player": "Rahul Tewatia",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:08:30.554Z"
+    },
+    {
+      "player": "Manvinder Bisla",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:08:53.106Z"
+    },
+    {
+      "player": "Mandeep Singh",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:09:15.625Z"
+    },
+    {
+      "player": "Navdeep Saini",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:09:38.146Z"
+    },
+    {
+      "player": "Kedar Jadhav",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:10:00.659Z"
+    },
+    {
+      "player": "Devdutt Padikkal",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:10:23.187Z"
+    },
+    {
+      "player": "Ankit Rajpoot",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:10:45.704Z"
+    },
+    {
+      "player": "Naman Ojha",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:11:08.234Z"
+    },
+    {
+      "player": "Shreyas Iyer",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:11:30.742Z"
+    },
+    {
+      "player": "Pat Cummins",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:11:53.259Z"
+    },
+    {
+      "player": "Dwayne Bravo",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:12:15.773Z"
+    },
+    {
+      "player": "Riyan Parag",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:12:38.295Z"
+    },
+    {
+      "player": "Varun Aaron",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:13:00.817Z"
+    },
+    {
+      "player": "Brendon McCullum",
+      "result": "UNSOLD",
+      "team": null,
+      "price": 0,
+      "time": "2026-11-06T16:13:23.322Z"
+    }
+  ],
+  "started": true,
+  "finished": true
+}

@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPL Auction Pro</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>🏏 IPL AUCTION PRO</h1>
+    <p>Live Cricket Player Auction</p>
+    <nav>
+      <a href="/admin.html">Host / Admin Panel</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="panel">
+      <h2 class="section-title">SELECT YOUR TEAM</h2>
+
+      <p class="muted">
+        Four participants can select one team each.
+        Each team can be selected by only one participant.
+      </p>
+
+      <select id="teamSelect">
+        <option value="">-- Select Your Team --</option>
+        <option value="CSK">Chennai Super Kings (CSK)</option>
+        <option value="MI">Mumbai Indians (MI)</option>
+        <option value="RCB">Royal Challengers Bengaluru (RCB)</option>
+        <option value="RR">Rajasthan Royals (RR)</option>
+      </select>
+
+      <p id="selectedMessage" class="message">
+        Select an available team to participate.
+      </p>
+
+      <div id="teamAvailability" class="team-availability"></div>
+    </section>
+
+    <section class="panel">
+      <h2 class="section-title">LIVE AUCTION</h2>
+
+      <div class="player-card">
+
+        <p id="playerNumber" class="muted">
+          Waiting for host...
+        </p>
+
+        <h2 id="playerName">Waiting for host...</h2>
+
+        <p id="playerRole" class="role">-</p>
+
+        <p class="muted">Current Bid</p>
+
+        <div id="currentBid" class="price">
+          ₹0.20 Cr
+        </div>
+
+        <p id="highestBidder" class="muted">
+          No bids yet
+        </p>
+
+        <div id="timer" class="timer">--</div>
+
+        <p id="auctionStatus" class="status">
+          WAITING
+        </p>
+
+        <button id="bidButton" class="bid-button" disabled>
+          BIDDING UNAVAILABLE
+        </button>
+
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 class="section-title">TEAM DASHBOARD</h2>
+      <div id="teamsContainer" class="teams"></div>
+    </section>
+
+    <section class="panel">
+      <h2 class="section-title">AUCTION PROGRESS</h2>
+
+      <p id="progress">0 / 100 Players Completed</p>
+
+      <div class="progress-track">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+    </section>
+
+    <section class="grid">
+
+      <div class="panel">
+        <h2 class="section-title">✅ SOLD PLAYERS</h2>
+        <div id="soldList">
+          No players sold yet.
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2 class="section-title">❌ UNSOLD PLAYERS</h2>
+        <div id="unsoldList">
+          No unsold players yet.
+        </div>
+      </div>
+
+    </section>
+
+    <section class="panel">
+      <h2 class="section-title">📋 AUCTION HISTORY</h2>
+      <div id="historyList">
+        No history yet.
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="panel container">
+    <p class="muted">
+      IPL Auction Pro | Live Auction Management
+    </p>
+  </footer>
+
+</body>
+</html>

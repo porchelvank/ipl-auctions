@@ -1,0 +1,308 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #090d18;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  background: #151d32;
+  padding: 25px 15px;
+  text-align: center;
+  border-bottom: 2px solid #e9b949;
+}
+
+header h1 {
+  color: #ffc857;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+header p {
+  color: #aaaaaa;
+  margin-top: 8px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+a {
+  color: #ffc857;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}
+
+.panel {
+  background: #151d32;
+  border: 1px solid #293652;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+  color: #ffc857;
+  margin-bottom: 15px;
+  font-size: 21px;
+}
+
+.player-card {
+  text-align: center;
+  padding: 35px 15px;
+  background: linear-gradient(135deg, #202d4b, #11182a);
+  border: 1px solid #dba93c;
+  border-radius: 15px;
+}
+
+.player-card h2 {
+  font-size: 32px;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+.role,
+.muted {
+  color: #bbbbbb;
+}
+
+.price {
+  color: #ffc857;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.timer {
+  font-size: 40px;
+  font-weight: bold;
+  color: #52e6a0;
+  margin: 15px;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  background: #263451;
+  color: white;
+  border: 1px solid #52627e;
+  margin: 12px 0;
+  font-size: 15px;
+}
+
+select option {
+  background: #263451;
+  color: white;
+}
+
+button {
+  background: #eab543;
+  color: #111111;
+  border: none;
+  padding: 13px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background: #ffd36b;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background: #555555;
+  color: #aaaaaa;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.bid-button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.teams {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.team {
+  background: #202d48;
+  padding: 15px;
+  border-radius: 10px;
+  border-top: 3px solid #eab543;
+  overflow-wrap: anywhere;
+}
+
+.team h3 {
+  color: #ffc857;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.team p {
+  font-size: 14px;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 12px;
+  color: #52e6a0;
+}
+
+.green {
+  color: #52e6a0;
+}
+
+.red {
+  color: #ff7373;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.list-item {
+  padding: 12px;
+  border-bottom: 1px solid #34405a;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.muted {
+  font-size: 13px;
+}
+
+.hint {
+  margin-top: 12px;
+}
+
+.progress-track {
+  background: #34405a;
+  height: 12px;
+  border-radius: 10px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #eab543;
+  transition: width 0.3s;
+}
+
+.team-availability {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.team-chip {
+  background: #263451;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.team-chip.taken {
+  color: #ff9b9b;
+  border: 1px solid #a84c4c;
+}
+
+.team-chip.free {
+  color: #83e6b2;
+  border: 1px solid #397d5b;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.admin-actions button {
+  flex: 1;
+  min-width: 130px;
+}
+
+.message {
+  margin-top: 12px;
+  color: #b9c5d8;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Mobile Responsive Design */
+
+@media (max-width: 700px) {
+  .teams {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .player-card h2 {
+    font-size: 23px;
+  }
+
+  header h1 {
+    font-size: 23px;
+  }
+
+  .panel {
+    padding: 15px;
+  }
+
+  .price {
+    font-size: 29px;
+  }
+
+  .timer {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 380px) {
+  .teams {
+    grid-template-columns: 1fr;
+  }
+}
